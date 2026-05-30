@@ -22,7 +22,15 @@ const instructorRoutes =
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://online-learning-platform-fmq5.vercel.app"
+    ],
+    credentials: true
+  })
+);
 app.use(express.json());
 
 // API Routes
