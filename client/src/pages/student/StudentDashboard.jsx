@@ -106,7 +106,7 @@ const StudentDashboard = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                LearnHub
+                LearnWme
               </h1>
               <p className="text-xs text-slate-500 mt-0.5">
                 Learning Management System
